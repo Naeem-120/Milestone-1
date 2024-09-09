@@ -11,32 +11,39 @@
     <header>
         <p>Feedback form for your searched image</p>
     </header>
-    <main>
-        <div class="search form">
+    <main class="ch">
+        <!-- <div class="search form">
             <form action="search" method="GET">
                 <label for="search">Search:</label>
                 <input type="search" id="search" name="query" placeholder="Search...">
                 <button type="submit">Search</button>
             </form>
-        </div>
+        </div> -->
         <div class="image">
+            <form action="search" method="GET"></form>
+                <label for="search">Search:</label>
+                <input type="search" id="search" name="query" placeholder="Search...">
+                <button type="submit">Search</button>
+            </form>
             <figure>
-                <img width="500px" height="500px" src="Image/sea.jpg" alt="photo of sea beach">
+                <img width="400px" height="350px" src="Image/sea.jpg" alt="photo of sea beach">
             </figure>
             <a href="https://en.wikipedia.org/wiki/Maldives"> For more details click here</a>
         </div>
         <div class="Form">
             <form action="">
-                <p>Feedback Form</p>
-                <label for="name">Name</label>
-                <input type="text" name="" id="name">
+                <b class="lekha">Feedback Form</b>
                 <br>
-                <label for="date">Date </label>
-                <input type="date" name="" id="date">
-                <br>
-                <fieldset>
-                    <legend>Comments</legend>
-                </fieldset>
+                <div class="F">
+                    <label for="name" placeholder="Enter Your Name">Enter Your Name</label>
+                    <input type="text" name="" id="name">
+                </div>
+                <div class="F">
+                    <label for="date">Date </label>
+                    <input type="date" name="" id="date">
+                </div>
+                <textarea name="comment" id="comment" placeholder="Write feedback here..." rows="10" cols="60"></textarea>
+                <button type="submit">Send Feedback</button>
             </form>
         </div>
     </main>

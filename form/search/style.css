@@ -1,18 +1,53 @@
-*{
-    margin: 10px;
-    margin-top: 20px;
+
+body{
+    background-image: url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/02/Closeup-of-Lights-Getting-Blurry.jpg?q=50&fit=crop&w=1100&h=618&dpr=1.5");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 header>p{
     font-size: 200%;
    text-align: center;
 }
+.ch{
+    display: flex;
+    justify-content:space-around;
+}
+img{
+    float: center;
+}
 a{
     text-decoration: none;
     color: #056161;
-    font-size: 50px;
+    font-size: 30px;
+    float: center;
 }
 fieldset{
     width: 400px;
     height: 200px;
     margin: 20px;
+
+}
+textarea{
+    cursor: pointer;
+}
+.F{
+    margin: 20px;
+    cursor: pointer;
+}
+button{
+    padding: 10px;
+    background-color: #156d15;
+    border-radius: 5px;
+    color: blanchedalmond;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: teal;
+}
+.lekha{
+    text-align: center;
+    font-size: larger;
+    float: calc(305-10PX);
 }

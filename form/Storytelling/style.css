@@ -1,0 +1,40 @@
+/* Styling for the comment box */
+/* *{
+    margin: 20px;
+    padding: auto;
+} */
+body{
+    background-image: url("image/249.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+textarea {
+    margin:20px;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    resize: vertical; 
+    /* Allows the user to resize the textbox vertically */
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    margin-right: 10%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    float: right;
+}
+/* form{
+    overflow: hidden;
+} */
+button:hover {
+    background-color: black;
+}
