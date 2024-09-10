@@ -17,8 +17,8 @@ textarea {
     border: 1px solid #ccc;
     font-size: 16px;
     resize: vertical; 
-    /* Allows the user to resize the textbox vertically */
-}
+    Allows the user to resize the textbox vertically
+     } 
 
 /* Button styling */
 button {
@@ -37,4 +37,36 @@ button {
 } */
 button:hover {
     background-color: black;
+}
+.header{
+    size: 40px;
+}
+nav .Nav{
+    display: flex;
+}
+nav li a{
+    margin-right: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color:#0d3a3a ;
+}
+a:hover{
+    background-color: #070736;
+}
+.Nav li{
+    margin-right: 10px;
+    list-style: none;  
+}
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: aquamarine;
+}
+nav li:hover .dropdown{
+    display: block;
 }
